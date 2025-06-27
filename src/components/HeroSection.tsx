@@ -4,19 +4,24 @@ import { ExternalLink, Sparkles } from "lucide-react";
 
 export const HeroSection = () => {
   const handleSubmitClick = () => {
-    window.open("https://example.com/form", "_blank", "noopener,noreferrer");
+    window.open(
+      "https://docs.google.com/forms/d/e/1FAIpQLSdPxibE1CehGMw6C7eykwCuCPb2_QVLNdBzMtJe6BGvnDR6Lw/viewform",
+      "_blank",
+      "noopener,noreferrer"
+    );
   };
 
   return (
-    <section className="py-16 md:py-24 px-4 md:px-8">
+    <section className="py-10 md:py-5 px-4 md:px-8">
       <div className="max-w-4xl mx-auto text-center">
         {/* Logo Placeholder */}
         <div className="mb-12 animate-fade-in">
-          <div className="w-32 h-32 md:w-40 md:h-40 mx-auto bg-gradient-to-br from-sky-blue-100 to-sky-blue-200 rounded-full flex items-center justify-center shadow-lg">
+          <div className="w-full max-w-4xl mx-auto bg-gradient-to-br from-sky-blue-100 to-sky-blue-200 rounded-2xl flex items-center justify-center shadow-lg overflow-hidden">
             <img
               src="/Shark.jpg"
               alt="Sharak Tank Logo"
-              className="w-full h-full object-cover rounded-full"
+              className="w-full h-64 object-cover"
+              style={{ objectPosition: "center" }}
             />
           </div>
         </div>

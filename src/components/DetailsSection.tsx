@@ -27,10 +27,10 @@ export const DetailsSection = () => {
       icon: <FileText className="w-6 h-6 text-sky-blue-600 " />,
       text: "المطلوب: تقديم الفكرة مكتوبة من خلال اسكريبت تمثيلي",
     },
-    // {
-    //   icon: <Calendar className="w-6 h-6 text-sky-blue-600 bg-white" />,
-    //   text: "آخر موعد للتقديم: 15 يناير 2025",
-    // },
+    {
+      icon: <Calendar className="w-6 h-6 text-sky-blue-600 " />,
+      text: "من شروط المسابقة: لازم تبدأ مناقشة المشروع بجملة 'Hi Sharks!'",
+    },
   ];
 
   return (
@@ -73,17 +73,16 @@ export const DetailsSection = () => {
           <CardHeader className="text-center pb-4">
             <CardTitle className="text-2xl md:text-3xl text-sky-blue-800 flex items-center justify-center gap-3">
               <CheckCircle className="w-8 h-8" />
-              جاهز للمشاركة؟
+              جاهزين يا ابطال؟
             </CardTitle>
           </CardHeader>
           <CardContent className="text-center pb-8">
             <p className="text-lg text-gray-700 mb-6 max-w-2xl mx-auto">
-              لا تفوت الفرصة وشارك بفكرتك الإبداعية التي تعبّر عن احترام بيت
-              الله. نحن متحمسون لرؤية إبداعكم!
+              متفوتش الفرصة وورينا كل ابدعاتكم
             </p>
             <div className="flex justify-center">
               <div className="px-6 py-3 bg-sky-blue-600 text-white rounded-lg text-lg font-semibold">
-                آخر موعد: 15 يناير 2025
+                معاد المناقشة يوم 28/6/2025
               </div>
             </div>
           </CardContent>
