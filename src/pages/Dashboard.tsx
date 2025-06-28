@@ -2,14 +2,14 @@ import React from "react";
 
 // بيانات وهمية للمجموعات
 const groups = [
-  { name: "الهيكل", score: 0 },
-  { name: "المذبح", score: 0 },
   { name: "الشورية", score: 0 },
+  { name: "حضن الأب", score: 0 },
+  { name: "جرن المعمودية", score: 0 },
+  { name: "الهيكل", score: 0 },
+  { name: "حامل الأيقونات", score: 0 },
+  { name: "المذبح", score: 0 },
   { name: "المنجلية", score: 0 },
   { name: "الأواني", score: 0 },
-  { name: "جرن المعمودية", score: 0 },
-  { name: "حامل الأيقونات", score: 0 },
-  { name: "حضن الأب", score: 0 },
 ];
 
 // ترتيب تنازلي حسب السكور
@@ -64,7 +64,7 @@ export default function Dashboard() {
                 </span>
               </div>
               <div className="text-2xl font-bold text-sky-blue-700">
-                {group.score} نقطة
+                {/* {group.score} نقطة */}
               </div>
             </div>
           ))}
